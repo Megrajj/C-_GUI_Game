@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Megra\\OneDrive\\Desktop\\Advance user\\A1\\30021935_Assignment_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDD12B9-57A8-4DF0-92A9-9CD9F9155909}|30021935_Assignment_1\\30021935_Assignment_1.csproj|c:\\users\\megra\\onedrive\\desktop\\advance user\\a1\\30021935_assignment_1\\30021935_assignment_1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BDD12B9-57A8-4DF0-92A9-9CD9F9155909}|30021935_Assignment_1\\30021935_Assignment_1.csproj|solutionrelative:30021935_assignment_1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDD12B9-57A8-4DF0-92A9-9CD9F9155909}|30021935_Assignment_1\\30021935_Assignment_1.csproj|C:\\Users\\Megra\\OneDrive\\Desktop\\Advance user\\A1\\30021935_Assignment_1\\30021935_assignment_1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BDD12B9-57A8-4DF0-92A9-9CD9F9155909}|30021935_Assignment_1\\30021935_Assignment_1.csproj|solutionrelative:30021935_assignment_1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Megra\\OneDrive\\Desktop\\Advance user\\A1\\30021935_Assignment_1\\30021935_Assignment_1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "30021935_Assignment_1\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Megra\\OneDrive\\Desktop\\Advance user\\A1\\30021935_Assignment_1\\30021935_Assignment_1\\MainPage.xaml.cs",
+              "RelativeToolTip": "30021935_Assignment_1\\MainPage.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T00:44:51.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Megra\\OneDrive\\Desktop\\Advance user\\A1\\30021935_Assignment_1\\30021935_Assignment_1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "30021935_Assignment_1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Megra\\OneDrive\\Desktop\\Advance user\\A1\\30021935_Assignment_1\\30021935_Assignment_1\\MainPage.xaml",
+              "RelativeToolTip": "30021935_Assignment_1\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T04:11:32.983Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

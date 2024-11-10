@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="_30021935_Assignment_1.WeatherWidgetPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_30021935_Assignment_1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <!-- Background Gradient -->
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/weather.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="429" Padding="20">
+            <TextBlock Text="Current Weather in New Zealand" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       Foreground="#FF344647" 
+                       HorizontalAlignment="Center" 
+                       Margin="0,20" Width="377" FocusVisualPrimaryBrush="#FF513737"/>
+
+            <TextBox x:Name="CityTextBox" 
+                     PlaceholderText="Enter city name..." 
+                     HorizontalAlignment="Stretch" 
+                     Margin="0,20" 
+                     Padding="10"/>
+
+            <Button x:Name="GetWeatherButton" 
+                    Content="Get Weather" 
+                    Click="GetWeatherButton_Click" 
+                    Width="200" 
+                    Margin="0,10" 
+                    Background="#FF7F50" 
+                    Foreground="White"/>
+
+            <!-- Weather Information Display -->
+            <Border Background="White" 
+                    CornerRadius="10" 
+                    Padding="20" 
+                    Margin="0,10"
+                    BorderBrush="Black" 
+                    BorderThickness="1">
+                <StackPanel>
+                    <TextBlock x:Name="CityNameTextBlock" 
+                               FontSize="20" 
+                               FontWeight="SemiBold" 
+                               HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="TemperatureTextBlock" 
+                               FontSize="48" 
+                               FontWeight="Bold" 
+                               HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="ConditionTextBlock" 
+                               FontSize="24" 
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Navigation buttons -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                <Button x:Name="BackButton" 
+                        Content="← Back" 
+                        Click="BackButton_Click" 
+                        Margin="5" 
+                        Width="100" 
+                        Background="#FF7F50" 
+                        Foreground="White"/>
+                <Button x:Name="NextButton" 
+                        Content="Next →" 
+                        Click="NextButton_Click" 
+                        Margin="5" 
+                        Width="100" 
+                        Background="#FF7F50" 
+                        Foreground="White"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
